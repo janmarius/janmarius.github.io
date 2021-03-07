@@ -1,5 +1,6 @@
 body {
-	background-color: #333;
+	background-color: #444444;
+	color: #a3a5aa;
 	margin-top: 5%;
 	margin-bottom: 10%;
 	margin-right: 20%;
@@ -8,29 +9,67 @@ body {
 
 
 .container {
-	background-color: red;
+	width: 100%;
+	text-align: center;
+	background-color: #3D3D3D;
+	display: inline-block;
 }
 
 
 .bookmarks {
-	float: right;
-	width: 100%;
-	background-color: #FFFFFF;
+	display: inline-block;
+	text-align: left;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+	color: inherit;
 }
 
 ul {
-	columns: 3;
-
+	columns: 4;
+	list-style-type: none;
 }
 
-a,a:hover,a:click, a:visited{
-  border:none;
-  outline:none;
-  text-decoration:none;
-  color:inherit;
-  -webkit-tap-highlight-color: white;
+.fa-github {
+	color: #F0F6FC;
 }
 
+.fa-reddit {
+	color: #FF4500;
+}
+
+.fa-twitter {
+	color: #00A2F3;
+}
+
+.fa-linkedin {
+	color: #0A66C2;
+}
+
+.fa-youtube {
+	color: #FF0000;
+}
+
+.fa-google {
+  background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-google-drive {
+  background: conic-gradient(from 30deg, #fbbc05 85deg, #ea4335 85deg 105deg, #4285f4 105deg 220deg, #34a853 220deg) no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+/*
 .fa-github {
 	color: #F0F6FC;
 }
@@ -56,3 +95,4 @@ a,a:hover,a:click, a:visited{
 .fa-google {
 	color: #4081EC;
 }
+*/
