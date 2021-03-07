@@ -17,6 +17,7 @@ body {
 
 
 .bookmarks {
+	font-size: 20px;
 	display: inline-block;
 	text-align: left;
 	color: white;
@@ -68,6 +69,17 @@ ul {
   color: transparent;
   -webkit-text-fill-color: transparent;
 }
+
+.icon-archlinux {
+	color: #0F94D2
+}
+
+.fa-wikipedia-w {
+	color: #000000;
+	background: #FFFFFF;
+	border-radius: 3px;
+}
+
 
 /*
 .fa-github {
